@@ -1,0 +1,6 @@
+レイアウトはフォームコントロールの水平配置を使用
+(1)form_forを<div class="form-horizontal" role="form">で囲む。
+(2)各入力項目（名前など）を <div class="form-group"></div> で囲む
+(2.5)<form-group>で改行を行ってる。
+(3)文字列と入力フォームを水平配置関係にするには、変数のあとにカンマを付けてclass="form-control"を付け加える。
+参考：https://sites.google.com/site/rubyonrailsapps/view_tips/railsnoformwobootstrapde-shi-zhuangsurutoki
